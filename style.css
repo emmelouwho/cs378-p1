@@ -1,0 +1,64 @@
+body {
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 24.2px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.food {
+  margin: 31px 10%;
+}
+
+.food-title {
+  font-family: 'Karma';
+  font-size: 20px;
+  line-height: 29.06px;
+  margin: none;
+  padding-bottom: 20%;
+}
+
+.food-info {
+  margin-left: 5%;
+}
+
+.order-button {
+  font-family: 'Inter';
+  font-size: 15px;
+  height: 27px;
+  width: 68px;
+  background: rgba(132, 175, 241, 0.53);
+  border: 1px solid black;
+  border-radius: 12px;
+  padding-left: 17px;
+}
+
+.price {
+  padding-top: 10px;
+  text-align: end;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+
+.row {
+  margin: auto;
+  width: fit-content;
+}
+
+#image-box{
+  min-width: 211px;
+  width: 55%;
+  padding-bottom: 47px;
+}
+
+#header {
+  color: #F06C14;
+}
+
+#subheader {
+  font-style: italic;
+}
