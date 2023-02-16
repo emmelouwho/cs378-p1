@@ -9,8 +9,53 @@ body {
   width: 100%;
 }
 
-.food {
+.food-container {
+  display: flex;
+  flex-direction: row;
   margin: 31px 10%;
+}
+
+.food-img {
+  flex-grow: 0;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+
+}
+
+.add-minus {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.add {
+  cursor: pointer;
+}
+.minus {
+  cursor: pointer;
+}
+
+.add-img2 {
+  margin-left: -16px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 16.94px;
+  margin: 5px 5px 2px;
 }
 
 .food-title {
@@ -19,30 +64,52 @@ body {
   line-height: 29.06px;
   margin: none;
   padding-bottom: 20%;
+  text-align: left;
 }
 
-.food-info {
-  margin-left: 5%;
-}
-
-.order-button {
-  font-family: 'Inter';
-  font-size: 15px;
-  height: 27px;
-  width: 68px;
-  background: rgba(132, 175, 241, 0.53);
-  border: 1px solid black;
-  border-radius: 12px;
-  padding-left: 17px;
-}
-
-.price {
+.dollar-amount {
   padding-top: 10px;
   text-align: end;
-  font-family: 'Inter';
   font-size: 16px;
 }
 
+.total-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 31px 10%;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.button {
+  font-family: 'Inter';
+  font-size: 15px;
+  height: 27px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.order {
+  background: rgba(132, 175, 241, 0.53);
+}
+
+.clear-all{
+  background: #AEB4BC85;
+}
 
 .row {
   margin: auto;
