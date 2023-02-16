@@ -10,7 +10,7 @@ body {
 }
 
 .food-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   margin: 31px 10%;
 }
